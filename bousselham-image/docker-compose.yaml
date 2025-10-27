@@ -1,0 +1,6 @@
+services:
+  api-flask:
+    image: abdelmajidbousselham/bouselham-api-ann:latest
+    hostname: bouselham-api-ann
+    ports:
+      - 5000:5000
